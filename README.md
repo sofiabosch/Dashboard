@@ -45,8 +45,8 @@ Following the storage of information in different repositories, we enter the mai
 Next, a radar chart with normalized values is presented, where parameters such as average glucose value, average HR, Moderate to Vigorous Physical Activity (MVPA), duration, and sleep score are compared. Alongside, real values obtained directly from various data acquisition methods are displayed. This provides a very general overview of differences at a high level. Additionally, sleep information divided into different stages is included, providing insights into the average sleep quality as well. The different stages 
 
 ![](images/ppal_dashboardDEMO.PNG)
+![](images/2cap_dashboardDEMO.png)
 
-![](images/2cap_dashboardDEMO.PNG)
 
 ## References
  - [1] [AI4FoodDB: a database for personalized e-Health nutrition and lifestyle through wearable devices and artificial intelligence](https://academic.oup.com/database/article/doi/10.1093/database/baad049/7226275?login=true))
