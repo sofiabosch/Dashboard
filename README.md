@@ -24,6 +24,10 @@ For the data visualization component, a Demo DASHBOARD tool has been developed t
 To implement the dashboard, the Django web development framework was utilized. Customization and adaptation to display each user's desired content were achieved through the use of HTML, while visual appeal was enhanced employing HTML and CSS.
 
 ## Dashboard
+
+Following the storage of information in different repositories, we enter the main screen of the dashboard. The main screen displays part of the patient's information contrasted with the population average, which in this case comprises the 100 patients from whom data collection was conducted. This initial information consists of general data and various datasets from AI4FoodDB. The genetic information extracted from the Biomarkers Dataset represents a series of single-nucleotide polymorphisms associated with metabolism, nutrition, and immune system deterioration. It allows us to compare the patient's genetic profile with the population mode, or in other words, what is most common among the rest of the patients and identify any anomalies in any gene.
+
+Next, a radar chart with normalized values is presented, where parameters such as average Glucose value, average HR, Moderate to Vigorous Physical Activity (MVPA), duration, and sleep score are compared. Alongside, real values obtained directly from various data acquisition methods are displayed. This provides a very general overview of differences at a high level. Additionally, sleep information divided into different stages is included, providing insights into the average sleep quality as well.
 ![](images/ppal_dashboardDEMO.PNG)
 
 
