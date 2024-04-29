@@ -23,17 +23,26 @@ All information on patient data capture, the data collection protocol and the co
 
 
 ## AI4FoodDB
+In this section I will name and make a brief explanation about the data of the datasets that have been shown in the dashboard. As I said before, the information about the rest of the datasets can be found in the paper [1].
 
+Dataset 3: Nutrition - Participants were requested to capture images of all food and drinks consumed during the 2-week digital data collection.
 
+Dataset 4: Biomarkers - Genetic information a series of single-nucleotide polymorphisms associated with metabolism, nutrition and immune system deterioration were measured. 
+
+Dataset 6: Vital signs - It records HR, it is recorded for each participant every 5 s as beats per minute (bpm).
+
+Dataset 7: Physical activity - this provides detailed reports of any physical activity. Calories, distance, duration, speed and additional specifc information are included for each activity. During each day, active minutes indicates the duration of physical activity based on four different activity levels: from sedentary and light activity to moderate and very active exercise. Also other additional data like calories burned per day, altitude, daily steps taken and distance covered per day.
+
+Dataset 8: Sleep activity - The sleep-related features captured by the device are sleep quality with an overall score, efficiency sleeping time in bed and also information about the start and end time of sleep, the duration of different sleep stages and time spent in bed.
 
 ## Tools
 To implement the dashboard, the Django web development framework was utilized. Customization and adaptation to display each user's desired content were achieved through the use of HTML, while visual appeal was enhanced employing HTML and CSS.
 
 ## Dashboard
 
-Following the storage of information in different repositories, we enter the main screen of the dashboard. The main screen displays part of the patient's information contrasted with the population average, which in this case comprises the 100 patients from whom data collection was conducted. This initial information consists of general data and various datasets from AI4FoodDB. The genetic information extracted from the Biomarkers Dataset represents a series of single-nucleotide polymorphisms associated with metabolism, nutrition, and immune system deterioration. It allows us to compare the patient's genetic profile with the population mode, or in other words, what is most common among the rest of the patients and identify any anomalies in any gene.
+Following the storage of information in different repositories, we enter the main screen of the dashboard. The main screen displays part of the patient's information contrasted with the population average, which in this case comprises the 100 patients from whom data collection was conducted. This initial information consists of general data and various datasets from AI4FoodDB. The genetic information extracted from the Biomarkers Dataset. It allows us to compare the patient's genetic profile with the population mode, or in other words, what is most common among the rest of the patients and identify any anomalies in any gene.
 
-Next, a radar chart with normalized values is presented, where parameters such as average Glucose value, average HR, Moderate to Vigorous Physical Activity (MVPA), duration, and sleep score are compared. Alongside, real values obtained directly from various data acquisition methods are displayed. This provides a very general overview of differences at a high level. Additionally, sleep information divided into different stages is included, providing insights into the average sleep quality as well.
+Next, a radar chart with normalized values is presented, where parameters such as average glucose value, average HR, Moderate to Vigorous Physical Activity (MVPA), duration, and sleep score are compared. Alongside, real values obtained directly from various data acquisition methods are displayed. This provides a very general overview of differences at a high level. Additionally, sleep information divided into different stages is included, providing insights into the average sleep quality as well. The different stages 
 
 ![](images/ppal_dashboardDEMO.PNG)
 
