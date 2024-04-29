@@ -36,7 +36,7 @@ Dataset 7: Physical activity - this provides detailed reports of any physical ac
 Dataset 8: Sleep activity - The sleep-related features captured by the device are sleep quality with an overall score, efficiency sleeping time in bed and also information about the start and end time of sleep, the duration of different sleep stages and time spent in bed.
 
 ## Tools
-To implement the dashboard, the Django web development framework was utilized. Customization and adaptation to display each user's desired content were achieved through the use of HTML, while visual appeal was enhanced employing HTML and CSS.
+To implement the dashboard, the Django web development framework was utilized. Customization and adaptation to display each user's desired content were achieved through the use of HTML, while visual appeal was enhanced employing CSS and Bootstrap.
 
 ## Dashboard
 
