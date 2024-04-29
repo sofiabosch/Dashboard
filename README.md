@@ -18,7 +18,7 @@ For the data visualization component, a Demo DASHBOARD tool has been developed t
 
 ## AI4FoodDB
 
-
+![](images/ppal_dashboardDEMO.PNG)
 
 ## Tools
 To implement the dashboard, the Django web development framework was utilized. Customization and adaptation to display each user's desired content were achieved through the use of HTML, while visual appeal was enhanced employing HTML and CSS.
@@ -26,4 +26,4 @@ To implement the dashboard, the Django web development framework was utilized. C
 ## Dashboard
 
 ## References
- - [1] [AI4FoodDB: a database for personalized e-Health nutrition and lifestyle through wearable devices and artificial intelligence]([https://awesomeopensource.com/project/elangosundar/awesome-README-templates](https://academic.oup.com/database/article/doi/10.1093/database/baad049/7226275))
+ - [1] [AI4FoodDB: a database for personalized e-Health nutrition and lifestyle through wearable devices and artificial intelligence](https://academic.oup.com/database/article/doi/10.1093/database/baad049/7226275?login=true))
