@@ -37,6 +37,7 @@ Next, a radar chart with normalized values is presented, where parameters such a
 
 ![](images/ppal_dashboardDEMO.PNG)
 
+![](images/2cap_dashboardDEMO.PNG)
 
 ## References
  - [1] [AI4FoodDB: a database for personalized e-Health nutrition and lifestyle through wearable devices and artificial intelligence](https://academic.oup.com/database/article/doi/10.1093/database/baad049/7226275?login=true))
