@@ -27,7 +27,7 @@ In this section I will name and make a brief explanation about the data of the d
 
 Dataset 3: Nutrition - Participants were requested to capture images of all food and drinks consumed during the 2-week digital data collection.
 
-Dataset 4: Biomarkers - Genetic information a series of single-nucleotide polymorphisms associated with metabolism, nutrition and immune system deterioration were measured. 
+Dataset 4: Biomarkers - Genetic information a series of single-nucleotide polymorphisms associated with metabolism, nutrition and immune system deterioration were measured. Additionally, the Glucose Management Indicator, which indicates the average AC1 level based on the average glucose level, glucose variability and coeffcient of variation of all readings logged over 2 weeks
 
 Dataset 6: Vital signs - It records HR, it is recorded for each participant every 5 s as beats per minute (bpm).
 
@@ -45,6 +45,13 @@ Following the storage of information in different repositories, we enter the mai
 Next, a radar chart with normalized values is presented, where parameters such as average glucose value, average HR, Moderate to Vigorous Physical Activity (MVPA), duration, and sleep score are compared. Alongside, real values obtained directly from various data acquisition methods are displayed. This provides a very general overview of differences at a high level. Additionally, sleep information divided into different stages is included, providing insights into the average sleep quality as well. The different stages 
 
 ![](images/ppal_dashboardDEMO.PNG)
+
+If we keep scrolling down the screen, we'll find a dropdown menu to select the day we want to visualize the data for. Then, we'll get the steps taken by the person on that day and the average glucose level for the day. These data are marked with a green or red arrow indicator depending on whether that value is above or below their own average. Next, there's a donut chart indicating the complete minutes of the day, with sedentary minutes in red, slightly active minutes in yellow, moderate minutes in purple, and active minutes in green.
+
+Afterward, we have sleep details, where we see a hypnogram representing the different sleep phases over time. Additional sleep data from the AI4FoodDB section are also displayed. Additionally, there's a physical activity report gathering data on different activities performed on that day, including the time, type, average heart rate during the activity, duration, and calories burned.
+
+Furthermore, there are two continuous signals showing glucose and heart rate details. Additionally, the Glycated Hemoglobin (HbA1c) test result and the average heart rate are indicated.
+
 ![](images/2cap_dashboardDEMO.png)
 
 
