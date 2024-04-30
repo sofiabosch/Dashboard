@@ -54,6 +54,9 @@ Furthermore, there are two continuous signals showing glucose and heart rate det
 
 ![](images/2cap_dashboardDEMO.png)
 
+To conclude, we find the food pyramid that the patient should have for that day following the guidelines of the OMS, and to the right, the food pyramid based on the recorded dietary intake during data collection for the day selected. This allows for comparison to identify if the patient lacks any food group from the pyramid. Finally, all the images uploaded by the user to the application appear, along with the indicated time for consuming the food.
+
+![](images/3cap_dashboardDEMO.png)
 
 ## References
  - [1] [AI4FoodDB: a database for personalized e-Health nutrition and lifestyle through wearable devices and artificial intelligence](https://academic.oup.com/database/article/doi/10.1093/database/baad049/7226275?login=true))
